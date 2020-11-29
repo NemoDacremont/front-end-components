@@ -1,9 +1,16 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+	<header>
+		<nav id="nav">
+		</nav>
+	</header>
+  
+	<main>
+		<router-view/>
+	</main>
+
+	<footer>
+		<p>Nemo D'acremont | <a href="https://github.com/odasta/">https://github.com/odasta</a></p>
+	</footer>
 </template>
 
 <style lang="scss">
